@@ -17,7 +17,7 @@ public class Cylinder {
 	double height;
 	
 	public double getVolume() {
-		return cir.radius * cir.radius * cir.PI * height;
+		return cir.getArea * height;
 	}
 	
 	public static void main(String[] args) {
