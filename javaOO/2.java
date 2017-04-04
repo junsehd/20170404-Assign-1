@@ -32,5 +32,4 @@ public class Student {
 		System.out.println("학번 : " + a1.getNum());
 		
 	}
-
 }
