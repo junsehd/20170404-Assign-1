@@ -17,7 +17,7 @@ public class Cylinder {
 	double height;
 	
 	public double getVolume() {
-		return cir.getArea * height;
+		return cir.getArea() * height;
 	}
 	
 	public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Cylinder {
 		
 		a1.cir = new Circle(2.8);
 		a1.height = 5.6;
-		System.out.println("원통의 부피 : " + (a1.getVolume() * a1.height));
+		System.out.println("원통의 부피 : " + a1.getVolume());
 
 	}
 
